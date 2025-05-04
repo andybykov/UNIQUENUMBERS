@@ -3,7 +3,7 @@ class BankAccount
 {
     public void Populate(decimal balance)
     {
-        accNo = NextNumber(); // получаем номер счета из метода
+        accNo = NextNumber(); // РїРѕР»СѓС‡Р°РµРј РЅРѕРјРµСЂ СЃС‡РµС‚Р° РёР· РјРµС‚РѕРґР°
         accBal = balance;
         accType = AccountType.Checking;
     }
@@ -23,7 +23,7 @@ class BankAccount
         return accType.ToString();
     }
 
-    // Метод возвращает инкрементированное значение поля nextAccNo
+    // РњРµС‚РѕРґ РІРѕР·РІСЂР°С‰Р°РµС‚ РёРЅРєСЂРµРјРµРЅС‚РёСЂРѕРІР°РЅРЅРѕРµ Р·РЅР°С‡РµРЅРёРµ РїРѕР»СЏ nextAccNo
     private static long NextNumber()
     {
         return nextAccNo++;
@@ -32,5 +32,5 @@ class BankAccount
     private long accNo;
     private decimal accBal;
     private AccountType accType;
-    private static long nextAccNo = 123; // переменная для хранения следующего значения счета
+    private static long nextAccNo = 123; // РїРµСЂРµРјРµРЅРЅР°СЏ РґР»СЏ С…СЂР°РЅРµРЅРёСЏ СЃР»РµРґСѓСЋС‰РµРіРѕ Р·РЅР°С‡РµРЅРёСЏ СЃС‡РµС‚Р°
 }
