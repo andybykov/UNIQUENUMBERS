@@ -1,4 +1,4 @@
-/* Лабоаторная 7. Упражнение 2. . Генерация номеров банковских счетов  */
+/* Р›Р°Р±РѕР°С‚РѕСЂРЅР°СЏ 6. РЈРїСЂР°Р¶РЅРµРЅРёРµ 2. Р“РµРЅРµСЂР°С†РёСЏ РЅРѕРјРµСЂРѕРІ Р±Р°РЅРєРѕРІСЃРєРёС… СЃС‡РµС‚РѕРІ  */
 using System;
 
 class CreateAccount
@@ -18,7 +18,7 @@ class CreateAccount
 
         //Console.Write("Enter the account number   : ");
         //long number = long.Parse(Console.ReadLine());        
-        //long number = BankAccount.NextNumber(); // получаем номер из метода
+        //long number = BankAccount.NextNumber(); // РїРѕР»СѓС‡Р°РµРј РЅРѕРјРµСЂ РёР· РјРµС‚РѕРґР°
 
         Console.Write("Enter the account balance! : ");
         decimal balance = decimal.Parse(Console.ReadLine());
